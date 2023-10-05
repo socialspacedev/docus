@@ -1,11 +1,9 @@
-source: content
-output: public
-paths:
-  uploads: uploads
-collections_config: {}
-_inputs: {}
-_select_data: {}
-_structures: {}
-_editables: {}
-data_config: {}
-timezone: Etc/UTC
+
+module.exports = {
+    paths: {
+        collections: 'content',
+        data: 'data',
+        static: 'public',
+        uploads: 'uploads'
+    }
+}
