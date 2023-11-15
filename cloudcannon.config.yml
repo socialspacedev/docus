@@ -1,0 +1,39 @@
+source: content
+output: public
+paths:
+  uploads: uploads
+  static: public
+  collections: content
+  data: data
+collections_config:
+  pages:
+    path: content
+    output: true
+    name: Pages
+    description: The website'd pages innit.
+    icon: pages
+    preview:
+      text:
+      subtext:
+      icon:
+      icon_color:
+      image:
+      metadata:
+      gallery:
+    _editables:
+      text: {}
+    _inputs: {}
+    _select_data: {}
+    _structures: {}
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    schemas: {}
+_inputs: {}
+_select_data: {}
+_structures: {}
+_editables: {}
+data_config: {}
+editor:
+  default_path:
+timezone: Pacific/Auckland
