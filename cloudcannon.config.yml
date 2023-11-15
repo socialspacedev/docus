@@ -8,8 +8,18 @@ paths:
 collections_config:
   pages:
     path: content
-    output: false
-    icon: notes
+    output: true
+    name: Pages
+    description: The website'd pages innit.
+    icon: pages
+    preview:
+      text:
+      subtext:
+      icon:
+      icon_color:
+      image:
+      metadata:
+      gallery:
     _editables:
       text: {}
     _inputs: {}
@@ -24,4 +34,6 @@ _select_data: {}
 _structures: {}
 _editables: {}
 data_config: {}
-timezone: Etc/UTC
+editor:
+  default_path:
+timezone: Pacific/Auckland
