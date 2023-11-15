@@ -7,7 +7,7 @@ paths:
   data: data
 collections_config:
   pages:
-    path: content
+    path: pages
     output: true
     name: Pages
     description: The website'd pages innit.
